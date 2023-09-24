@@ -1,3 +1,3 @@
-function namify(users) {
-  // ваш код...
+const namify = (users) => {
+  return users.filter(({name})=> name).map(({name}) => name)
 }
