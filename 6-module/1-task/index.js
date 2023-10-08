@@ -48,8 +48,6 @@ export default class UserTable {
   }
 
   delRow (position) {
-    console.log('CLICK', position)
-    const sel = `#${position.toString()}`
     const row = document.querySelector(`#row-${position}`);
     row.remove();
   }
