@@ -21,9 +21,9 @@
       steps: 5
     });
 
-    holder.append(stepSlider.elem);
+    let containerElement = document.body.querySelector('.container');
 
-    holder.addEventListener('slider-change', (event) => console.log(event));
+    containerElement.append(stepSlider.elem);
   </script>
 </body>
 
